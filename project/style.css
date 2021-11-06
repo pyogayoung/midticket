@@ -1,0 +1,277 @@
+body {
+  background-color: rgb(255, 248, 240, 30%);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 100;
+  font-size: 55px;
+  letter-spacing: 3px;
+  margin: 20px 0 30px 25px;
+  color: rgb(104, 38, 124);
+}
+
+.navigation-bar {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: rgb(104, 38, 124, 5%);
+  padding: 20px 180px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#sidebar-button,
+#sidebar-close-button {
+  position: absolute;
+  top: 142px;
+  left: 120px;
+  font-size: 20px;
+  background-color: rgb(104, 38, 124, 0%);
+  border: 0;
+  color: rgb(104, 38, 124, 65%);
+}
+
+#sidebar-close-button {
+  display: none;
+}
+
+ul li a {
+  color: rgb(104, 38, 124, 65%);
+}
+
+ul li a:hover,
+#sidebar-button:hover {
+  color: rgb(104, 38, 124, 90%);
+}
+
+.best h2,
+.new h2 {
+  margin: 20px 20px 45px 20px;
+}
+
+.best div p {
+  margin: 10px 0 7px;
+  font-size: 18px;
+}
+
+.best div span {
+  font-size: 14px;
+  font-weight: 100;
+  color: rgb(161, 161, 161);
+}
+
+.new div p {
+  margin: 10px 0 7px;
+  font-size: 18px;
+}
+
+.new div span {
+  font-size: 14px;
+  font-weight: 100;
+  color: rgb(161, 161, 161);
+}
+
+article h2 {
+  background-color: rgb(104, 38, 124, 5%);
+  padding: 3px;
+}
+
+aside h1 {
+  color: rgb(104, 38, 124);
+  font-size: large;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(104, 38, 124, 80%);
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+section {
+  font-family: "Noto Sans KR", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  width: 85vw;
+  margin: 0 auto;
+}
+
+article {
+  flex: 5;
+  margin-top: 10px;
+}
+
+aside {
+  margin: 35px 20px 20px 35px;
+  position: sticky;
+  top: 30px;
+  flex: 1;
+  height: 500px;
+}
+
+article img {
+  width: 235px;
+  height: 320px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+.login-input {
+  padding: 0 20px 0 20px;
+  margin-top: 70px;
+}
+
+.login-input input {
+  width: 145px;
+}
+
+.login-input p {
+  margin: 10px 0 3px 0;
+}
+
+.login-button {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.login-button button,
+#event-button {
+  background-color: rgb(104, 38, 124, 50%);
+  border: none;
+  border-radius: 10%;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.login-button button:hover,
+#event-button:hover {
+  background-color: rgb(104, 38, 124, 70%);
+}
+
+.event {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.event-box {
+  width: 100px;
+  padding: 15px;
+  text-align: center;
+  background-color: rgb(255, 249, 249);
+  border: 2px solid rgb(104, 38, 124, 15%);
+  border-radius: 20px;
+}
+
+.event-box p {
+  margin: 0 0 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(104, 38, 124, 70%);
+}
+
+.event-box span {
+  font-size: 15px;
+  color: #646464;
+}
+
+.event-box button {
+  margin-top: 15px;
+}
+
+.best-img,
+.new-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.best-text,
+.new-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.bottom {
+  margin: 40px 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bottom h2 {
+  margin: 0 10px 45px 10px;
+}
+
+.schedule,
+.recommend {
+  min-width: 250px;
+  flex: 1;
+  text-align: center;
+}
+
+.recommend-table,
+.schedule-table {
+  display: flex;
+  justify-content: center;
+}
+
+tr td img {
+  width: 80px;
+  height: auto;
+  border-radius: 10%;
+}
+
+tr td p {
+  text-align: center;
+  width: 220px;
+  margin: 0 0 4px;
+  font-size: 17px;
+}
+
+tr td span {
+  font-size: 14px;
+}
+
+.new {
+  margin-top: 40px;
+}
+
+footer {
+  padding: 15px 0 5px 15px;
+  font-size: small;
+  font-weight: 200;
+  background-color: rgb(104, 38, 124, 5%);
+  color: gray;
+}
+
+footer h4 {
+  margin: 0;
+  font-size: medium;
+  font-weight: 200;
+}
+
+#concert,
+#classic,
+#musical,
+#display,
+#kids,
+#my {
+  display: none;
+}

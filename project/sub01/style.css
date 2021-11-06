@@ -1,0 +1,147 @@
+body {
+  background-color: rgb(255, 248, 240, 30%);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+H2 {
+  color: rgb(104, 38, 124, 85%);
+}
+
+.navigation-bar {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: rgb(104, 38, 124, 5%);
+  padding: 20px 180px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#concert,
+#classic,
+#musical,
+#display,
+#kids,
+#my {
+  display: none;
+}
+
+#sidebar-button,
+#sidebar-close-button {
+  position: absolute;
+  top: 142px;
+  left: 120px;
+  font-size: 20px;
+  background-color: rgb(104, 38, 124, 0%);
+  border: 0;
+  color: rgb(104, 38, 124, 65%);
+}
+
+.s-nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.s-nav ul li {
+  padding: 0 10px;
+}
+
+ul li a {
+  color: rgb(104, 38, 124, 65%);
+}
+
+ul li a:hover,
+#sidebar-button:hover {
+  color: rgb(104, 38, 124, 90%);
+}
+
+header h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 100;
+  font-size: 55px;
+  letter-spacing: 3px;
+  margin: 20px 0 30px 25px;
+  color: rgb(104, 38, 124);
+}
+
+section {
+  font-family: "Noto Sans KR", sans-serif;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 15px 0 5px 15px;
+  font-size: small;
+  font-weight: 200;
+  background-color: rgb(104, 38, 124, 5%);
+  color: gray;
+}
+
+footer h4 {
+  margin: 0;
+  font-size: medium;
+  font-weight: 200;
+}
+
+#demo h2 {
+  text-align: center;
+  margin: 40px;
+}
+
+.upload {
+  margin: 30px;
+}
+
+#productList {
+  display: flex;
+  justify-content: center;
+  color: rgb(70, 70, 70);
+}
+
+#productList table {
+  width: 80vw;
+  border-spacing: 25px;
+  text-align: center;
+  border: 1px solid rgb(104, 38, 124, 20%);
+}
+
+#show-name {
+  text-align: left;
+}
+
+.upload input {
+  margin: 5px 0;
+  width: 80vw;
+  height: 25px;
+  border-radius: 0;
+  border: 1px solid rgb(104, 38, 124, 20%);
+}
+
+#file {
+  padding: 2px 2px;
+  background-color: white;
+}
+
+.upload button {
+  margin: 10px 5px 0 0;
+  background-color: rgb(104, 38, 124, 50%);
+  border: none;
+  border-radius: 10%;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.upload button:hover {
+  background-color: rgb(104, 38, 124, 70%);
+}
