@@ -1,0 +1,140 @@
+body {
+  background-color: rgb(255, 248, 240, 30%);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 100;
+  font-size: 55px;
+  letter-spacing: 3px;
+  margin: 20px 0 30px 25px;
+  color: rgb(104, 38, 124);
+}
+
+.navigation-bar {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: rgb(104, 38, 124, 5%);
+  padding: 20px 180px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#sidebar-button,
+#sidebar-close-button {
+  position: absolute;
+  top: 142px;
+  left: 120px;
+  font-size: 20px;
+  background-color: rgb(104, 38, 124, 0%);
+  border: 0;
+  color: rgb(104, 38, 124, 65%);
+}
+
+#sidebar-close-button {
+  display: none;
+}
+
+ul li a {
+  color: rgb(104, 38, 124, 65%);
+}
+
+ul li a:hover,
+#sidebar-button:hover {
+  color: rgb(104, 38, 124, 90%);
+}
+
+section {
+  font-family: "Noto Sans KR", sans-serif;
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top {
+  color: rgb(70, 70, 70);
+  display: flex;
+  padding: 40px 10px;
+  margin: 70px 0 30px;
+  border: 1px solid rgb(104, 38, 124, 20%);
+  justify-content: center;
+}
+
+.top img {
+  width: 180px;
+  height: 255px;
+  margin-right: 60px;
+}
+
+.top a button {
+  width: 120px;
+  height: 50px;
+  position: relative;
+  top: 170px;
+  background-color: rgb(104, 38, 124, 50%);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.top a button:hover {
+  background-color: rgb(104, 38, 124, 70%);
+}
+
+.jjim {
+  width: 120px;
+  padding: 12px 0;
+  position: relative;
+  top: 160px;
+  border: 1px solid rgb(104, 38, 124, 50%);
+}
+
+.jjim i {
+  color: rgb(104, 38, 124, 30%);
+}
+
+.jjim i:hover {
+  color: rgb(104, 38, 124, 80%);
+}
+
+.map-box {
+  color: rgb(70, 70, 70);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+footer {
+  padding: 15px 0 5px 15px;
+  font-size: small;
+  font-weight: 200;
+  background-color: rgb(104, 38, 124, 5%);
+  color: gray;
+}
+
+footer h4 {
+  margin: 0;
+  font-size: medium;
+  font-weight: 200;
+}
+
+#concert,
+#classic,
+#musical,
+#display,
+#kids,
+#my {
+  display: none;
+}

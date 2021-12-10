@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sub02_style.css">
+    <script src="../app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>미드티켓</title>
+</head>
+<body onload="tableprint2();">
+    <header>
+        <h1><a href="../index.html">mid-Ticket</a></h1>
+    </header>
+    <nav>
+        <ul class="navigation-bar">
+            <button id="sidebar-button" onclick="w3_open()">☰</button> 
+            <button id="sidebar-close-button" onclick="w3_close()">☰</button>            
+            <li>
+                <a href="../sub01/concert.html">콘서트</a> 
+                <ul id="concert"> <hr>
+                    <li><a href="">아이돌</a></li>
+                    <li><a href="">패스티벌</a></li>
+                    <li><a href="">내한공연</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="../sub02/classic.html">클래식/무용</a> 
+                <ul id="classic"> <hr>
+                    <li><a href="">클래식</a></li>
+                    <li><a href="">오페라</a></li>
+                    <li><a href="">발레/무용</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">뮤지컬</a>
+                <ul id="musical"> <hr>
+                    <li><a href="">오리지널</a></li>
+                    <li><a href="">창작 뮤지컬</a></li>
+                    <li><a href="">넌버벌 퍼포먼스  </a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">전시/행사</a>
+                <ul id="display"> <hr>
+                    <li><a href="">전시</a></li>
+                    <li><a href="">뮤지엄</a></li>
+                    <li><a href="">기간 클래스</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">아동/가족</a>
+                <ul id="kids"> <hr>
+                    <li><a href="">체험 전시</a></li>
+                    <li><a href="">아동 뮤지컬</a></li>
+                    <li><a href="">아동 클래식</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">My 티켓</a>
+                <ul id="my"> <hr>
+                    <li><a href="">마이페이지</a></li>
+                    <li><a href="">설정</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <section >
+        <div id="demo">
+            <h2> 클래식 </h2>
+            <div class="s-nav">
+                <ul>
+                    <li><a href="">전체</a></li>
+                    <li><a href="">클래식</a></li>
+                    <li><a href="">오페라</a></li>
+                    <li><a href="">발레/무용</a></li>
+                </ul>
+            </div>
+            <div id="productList2">
+            </div>
+        </div>
+        <div class="upload">
+            <h2>공연 등록</h2>
+            공연명 :<br> <input type="text" name="" id="show"> <br>
+            공연사진 :<br> <input type="file" name="" id="file"> <br>
+            공연일시 :<br> <input type="text" name="" id="date"> <br>
+            공연장소 :<br> <input  type="text" name="" id="place"> <br>
+            <button onclick="fileUpload();"> 상품등록</button>
+            <button onclick="tableprint();"> 상품리스트</button>
+        </div>
+    </section>
+    <footer>
+        <h4>(주)MID</h4>
+        <p>부산광역시 해운대구 에이로 123번길 2-28 <br>
+            대표이사: 표가영 &nbsp; | &nbsp;
+            통신판매업신고번호 : 2018-부산해운대-B-0004 &nbsp; | &nbsp;
+            사업자등록번호: 456-85-35451 &nbsp; | &nbsp;
+            고객센터(평일 09:00~18:00): 6466-4011 &nbsp; | &nbsp;
+            &copy; 주식회사 MID
+        </p>
+    </footer>
+</body>
+</html>
